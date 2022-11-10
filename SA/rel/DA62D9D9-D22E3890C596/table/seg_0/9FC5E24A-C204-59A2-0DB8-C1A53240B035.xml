@@ -1,0 +1,39 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9FC5E24A-C204-59A2-0DB8-C1A53240B035" name="Enquiry">
+<createdBy>markreedmanback</createdBy>
+<createdTime>2022-11-09 12:16:51 UTC</createdTime>
+<generatorID>B5AB0408-83FD-0203-A418-5445DC4F36D2</generatorID>
+<ownerDesignName>SA</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Application_Application_ID" id="DA7CD9AF-E8B9-ABF5-DBF7-98ED6E3D8EAF">
+<createdBy>markreedmanback</createdBy>
+<createdTime>2022-11-09 12:16:51 UTC</createdTime>
+<ownerDesignName>SA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2C5B1167-F315-FB92-E3BC-1BF110269807" referredColumn="4A37645B-B6BC-97E9-DD06-5E598F7B21D7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="668D8E52-CA13-E1F6-2E74-2A64B12AC59C" name="Enquiry_Application_FK">
+<createdBy>markreedmanback</createdBy>
+<createdTime>2022-11-09 12:16:51 UTC</createdTime>
+<generatorID>11C6140A-ABFD-0940-8458-8AB3B466A722</generatorID>
+<ownerDesignName>SA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DA7CD9AF-E8B9-ABF5-DBF7-98ED6E3D8EAF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

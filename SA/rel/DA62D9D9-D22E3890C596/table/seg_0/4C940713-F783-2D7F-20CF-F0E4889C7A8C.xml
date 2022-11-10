@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4C940713-F783-2D7F-20CF-F0E4889C7A8C" name="Module_Enrichment">
+<createdBy>markreedmanback</createdBy>
+<createdTime>2022-11-09 12:16:51 UTC</createdTime>
+<generatorID>4C242BB9-D5C4-BA34-B1A3-3BC654B67796</generatorID>
+<ownerDesignName>SA</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Module_Enrichment_ID" id="AF50FB8A-D3C2-D909-C187-FD088AD38FA1">
+<createdBy>markreedmanback</createdBy>
+<createdTime>2022-11-09 12:16:51 UTC</createdTime>
+<ownerDesignName>SA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="Enroll_Enroll_ID" id="5F63EFC3-54DA-EBAE-8DBF-CA0A119D9646">
+<createdBy>markreedmanback</createdBy>
+<createdTime>2022-11-09 12:16:51 UTC</createdTime>
+<ownerDesignName>SA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3B864DE9-BB3E-E5CA-CBCA-6B3E361B52C4" referredColumn="79B85C06-ADBF-AFB2-B1B5-A08C915F1F6A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4F652818-3B0D-3688-4C1F-7FA0D4F1C21F" name="Module_Enrichment_PK">
+<createdBy>markreedmanback</createdBy>
+<createdTime>2022-11-09 12:16:51 UTC</createdTime>
+<ownerDesignName>SA</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="AF50FB8A-D3C2-D909-C187-FD088AD38FA1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="99965D2A-6D45-2425-1C3D-9292BFBAED27" name="Module_Enrichment_Enroll_FK">
+<createdBy>markreedmanback</createdBy>
+<createdTime>2022-11-09 12:16:51 UTC</createdTime>
+<generatorID>D4E13146-CBF8-42F3-2D67-1DCF7D852659</generatorID>
+<ownerDesignName>SA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5F63EFC3-54DA-EBAE-8DBF-CA0A119D9646"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

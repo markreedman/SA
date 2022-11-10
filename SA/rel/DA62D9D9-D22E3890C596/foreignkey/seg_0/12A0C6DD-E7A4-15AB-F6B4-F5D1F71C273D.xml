@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="12A0C6DD-E7A4-15AB-F6B4-F5D1F71C273D" containerWithKeyObject="A4B5EE7B-B130-0269-E8DD-A448E329E5A8" localFKIndex="2F71C43B-CA49-C451-9071-E3B9A7EEE7AD" name="Module_Module_Enrichment_FK">
+<createdBy>markreedmanback</createdBy>
+<createdTime>2022-11-09 12:16:51 UTC</createdTime>
+<generatorID>5B59AAAF-B274-2306-1BF0-6A70F9B390B1</generatorID>
+<ownerDesignName>SA</ownerDesignName>
+<referredTableLongName>Module_Enrichment</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>4C940713-F783-2D7F-20CF-F0E4889C7A8C</referredTableID>
+<keyObject>4F652818-3B0D-3688-4C1F-7FA0D4F1C21F</keyObject>
+<referredKeyID>4F652818-3B0D-3688-4C1F-7FA0D4F1C21F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Module_Enrichment_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

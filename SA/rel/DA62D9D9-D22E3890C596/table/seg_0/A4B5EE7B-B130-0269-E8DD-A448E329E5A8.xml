@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A4B5EE7B-B130-0269-E8DD-A448E329E5A8" name="Module">
+<createdBy>markreedmanback</createdBy>
+<createdTime>2022-11-09 12:16:51 UTC</createdTime>
+<generatorID>608D9617-2890-9708-2160-AA5B0BD03135</generatorID>
+<ownerDesignName>SA</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Module_ID" id="B9C60C2E-1BAB-B290-0548-CE3FAA4060C1">
+<createdBy>markreedmanback</createdBy>
+<createdTime>2022-11-10 10:21:56 UTC</createdTime>
+<ownerDesignName>SA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="Module_Enrichment_Module_Enrichment_ID" id="5A097768-AEBE-D7D9-1C67-37C82573E7F3">
+<createdBy>markreedmanback</createdBy>
+<createdTime>2022-11-09 12:16:51 UTC</createdTime>
+<ownerDesignName>SA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="12A0C6DD-E7A4-15AB-F6B4-F5D1F71C273D" referredColumn="AF50FB8A-D3C2-D909-C187-FD088AD38FA1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="39D8B0A4-B6DD-3092-3E8B-74DE537E945D" name="Module_PK">
+<createdBy>markreedmanback</createdBy>
+<createdTime>2022-11-10 10:21:56 UTC</createdTime>
+<ownerDesignName>SA</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="B9C60C2E-1BAB-B290-0548-CE3FAA4060C1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4367C46A-9C74-FBE7-8F9D-51B39D2C7152" name="Module__IDX">
+<createdBy>markreedmanback</createdBy>
+<createdTime>2022-11-09 12:16:51 UTC</createdTime>
+<ownerDesignName>SA</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>5B59AAAF-B274-2306-1BF0-6A70F9B390B1</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="5A097768-AEBE-D7D9-1C67-37C82573E7F3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2F71C43B-CA49-C451-9071-E3B9A7EEE7AD" name="Module_Module_Enrichment_FK">
+<createdBy>markreedmanback</createdBy>
+<createdTime>2022-11-09 12:16:51 UTC</createdTime>
+<generatorID>5B59AAAF-B274-2306-1BF0-6A70F9B390B1</generatorID>
+<ownerDesignName>SA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5A097768-AEBE-D7D9-1C67-37C82573E7F3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

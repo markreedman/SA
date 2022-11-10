@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BD055851-693F-0CA2-CE75-B628FBCB4C48" name="Application">
+<createdBy>markreedmanback</createdBy>
+<createdTime>2022-11-09 12:16:51 UTC</createdTime>
+<generatorID>B7F0524F-680F-4776-EE47-FE8647FF6490</generatorID>
+<ownerDesignName>SA</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Application_ID" id="4A37645B-B6BC-97E9-DD06-5E598F7B21D7">
+<createdBy>markreedmanback</createdBy>
+<createdTime>2022-11-09 12:16:51 UTC</createdTime>
+<ownerDesignName>SA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="Student_Student_ID" id="6F5DBBDD-A3FC-B3D7-DEA9-48642368206B">
+<createdBy>markreedmanback</createdBy>
+<createdTime>2022-11-09 12:16:51 UTC</createdTime>
+<ownerDesignName>SA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ECC0A00B-9E29-06D0-169C-C35F84C49031" referredColumn="0646257F-37F6-A0E6-C071-9706C193B481"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3E231003-06CF-18AB-10C6-DEAA87D4AD6B" name="Application_PK">
+<createdBy>markreedmanback</createdBy>
+<createdTime>2022-11-09 12:16:51 UTC</createdTime>
+<ownerDesignName>SA</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="4A37645B-B6BC-97E9-DD06-5E598F7B21D7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CA173E0D-D209-A9D4-BE35-7BFC52C01F22" name="Application_Student_FK">
+<createdBy>markreedmanback</createdBy>
+<createdTime>2022-11-09 12:16:51 UTC</createdTime>
+<generatorID>21C20260-2331-D37D-ED6C-9ED0F3C9C50F</generatorID>
+<ownerDesignName>SA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6F5DBBDD-A3FC-B3D7-DEA9-48642368206B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2C8C1D52-E421-F901-A130-43FA6862BA34" containerWithKeyObject="F2C4373D-C5DC-F9DB-6A34-46D20B92B280" localFKIndex="C1844DEB-6F52-3A64-EB0D-A8077FC9B56D" name="Subject_Award_FK">
+<createdBy>markreedmanback</createdBy>
+<createdTime>2022-11-09 12:16:51 UTC</createdTime>
+<generatorID>CB9082F7-2335-1E3F-C7E2-F38D8A752BCA</generatorID>
+<ownerDesignName>SA</ownerDesignName>
+<referredTableLongName>Award</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>704576B4-96B3-2175-A8BC-CEB070532530</referredTableID>
+<keyObject>9DF926B8-7B6E-1111-450F-52DFAA6C503D</keyObject>
+<referredKeyID>9DF926B8-7B6E-1111-450F-52DFAA6C503D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Award_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

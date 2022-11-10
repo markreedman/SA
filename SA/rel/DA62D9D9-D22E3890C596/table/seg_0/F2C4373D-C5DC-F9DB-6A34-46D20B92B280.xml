@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F2C4373D-C5DC-F9DB-6A34-46D20B92B280" name="Subject">
+<createdBy>markreedmanback</createdBy>
+<createdTime>2022-11-09 12:16:51 UTC</createdTime>
+<generatorID>83C35669-ED8B-0144-CCFE-B7825688E6F4</generatorID>
+<ownerDesignName>SA</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Subject_ID" id="D17066D4-22C1-6CA7-E30C-4C28CA609E24">
+<createdBy>markreedmanback</createdBy>
+<createdTime>2022-11-09 12:16:51 UTC</createdTime>
+<ownerDesignName>SA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="Course_Course_ID" id="62B65BEE-C39D-DAB3-5A59-39ADEF47708D">
+<createdBy>markreedmanback</createdBy>
+<createdTime>2022-11-09 12:16:51 UTC</createdTime>
+<ownerDesignName>SA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DF1B0FF8-71FF-A84E-FE85-D6F77A388C8A" referredColumn="06BFA4D0-CE9F-0CD1-F224-5622649BF97E"/>
+</associations>
+</Column>
+<Column name="Award_Award_ID" id="7697B43F-8C1E-10A6-BCF0-F6A15CF095C5">
+<createdBy>markreedmanback</createdBy>
+<createdTime>2022-11-09 12:16:51 UTC</createdTime>
+<ownerDesignName>SA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2C8C1D52-E421-F901-A130-43FA6862BA34" referredColumn="0594D5B3-9D93-B40E-571D-C516672BB982"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="52E61BAE-CE42-A40F-031C-401E5A5FE7F3" name="Subject_PK">
+<createdBy>markreedmanback</createdBy>
+<createdTime>2022-11-09 12:16:51 UTC</createdTime>
+<ownerDesignName>SA</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="D17066D4-22C1-6CA7-E30C-4C28CA609E24"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EEDA7B53-A0D1-2D14-E9E3-B912EFC54866" name="Subject__IDX">
+<createdBy>markreedmanback</createdBy>
+<createdTime>2022-11-09 12:16:51 UTC</createdTime>
+<ownerDesignName>SA</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>CB9082F7-2335-1E3F-C7E2-F38D8A752BCA</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="7697B43F-8C1E-10A6-BCF0-F6A15CF095C5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F94F7F47-2E2A-C01C-AD92-872DA1F55D0A" name="Subject_Course_FK">
+<createdBy>markreedmanback</createdBy>
+<createdTime>2022-11-09 12:16:51 UTC</createdTime>
+<generatorID>5BF0CA50-BB84-34F4-BCBC-D1D32B04FCE9</generatorID>
+<ownerDesignName>SA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="62B65BEE-C39D-DAB3-5A59-39ADEF47708D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C1844DEB-6F52-3A64-EB0D-A8077FC9B56D" name="Subject_Award_FK">
+<createdBy>markreedmanback</createdBy>
+<createdTime>2022-11-09 12:16:51 UTC</createdTime>
+<generatorID>CB9082F7-2335-1E3F-C7E2-F38D8A752BCA</generatorID>
+<ownerDesignName>SA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7697B43F-8C1E-10A6-BCF0-F6A15CF095C5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

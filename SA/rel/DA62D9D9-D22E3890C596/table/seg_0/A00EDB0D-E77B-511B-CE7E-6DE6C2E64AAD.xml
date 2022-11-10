@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A00EDB0D-E77B-511B-CE7E-6DE6C2E64AAD" name="Placement">
+<createdBy>markreedmanback</createdBy>
+<createdTime>2022-11-09 12:16:51 UTC</createdTime>
+<generatorID>C54CCBE6-CB8A-E55A-9F84-95B57E18869B</generatorID>
+<ownerDesignName>SA</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Enroll_Enroll_ID" id="4155C8B2-D0F3-8E8D-5552-730EB3F3358D">
+<createdBy>markreedmanback</createdBy>
+<createdTime>2022-11-09 12:16:51 UTC</createdTime>
+<ownerDesignName>SA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C36BF489-CFB1-7FB4-A80A-15BD0316E86D" referredColumn="79B85C06-ADBF-AFB2-B1B5-A08C915F1F6A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A1587FE3-A84D-EDBE-2280-2317508D5F1E" name="Placement__IDX">
+<createdBy>markreedmanback</createdBy>
+<createdTime>2022-11-09 12:16:51 UTC</createdTime>
+<ownerDesignName>SA</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>2D982650-6900-8AB8-91EC-E6FB36015995</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="4155C8B2-D0F3-8E8D-5552-730EB3F3358D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="134928F1-2EC4-B2CA-747E-A77D41F85F45" name="Placement_Enroll_FK">
+<createdBy>markreedmanback</createdBy>
+<createdTime>2022-11-09 12:16:51 UTC</createdTime>
+<generatorID>2D982650-6900-8AB8-91EC-E6FB36015995</generatorID>
+<ownerDesignName>SA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4155C8B2-D0F3-8E8D-5552-730EB3F3358D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

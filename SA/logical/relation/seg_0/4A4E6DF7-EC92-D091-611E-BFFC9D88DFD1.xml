@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Module Result Module Enrichment FK" directorySegmentName="seg_0" id="4A4E6DF7-EC92-D091-611E-BFFC9D88DFD1">
+<createdBy>markreedmanback</createdBy>
+<createdTime>2022-11-09 11:44:33 UTC</createdTime>
+<ownerDesignName>SA</ownerDesignName>
+<engineerTo>
+<item key="DA62D9D9-112A-5EEE-E351-D22E3890C596" value="true"/>
+</engineerTo>
+<useSurrogateKey>true</useSurrogateKey>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>4C242BB9-D5C4-BA34-B1A3-3BC654B67796</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>BE782DD3-330C-FCBE-C66A-E42B9B68D94D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6191C3BA-9BE9-3DFF-4BED-8C316A92EEF8" name="Module_Result">
+<createdBy>markreedmanback</createdBy>
+<createdTime>2022-11-09 12:16:51 UTC</createdTime>
+<generatorID>BE782DD3-330C-FCBE-C66A-E42B9B68D94D</generatorID>
+<ownerDesignName>SA</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Module_Enrichment_Module_Enrichment_ID" id="ABDEFB49-584F-A12C-65B0-95456453CBAF">
+<createdBy>markreedmanback</createdBy>
+<createdTime>2022-11-09 12:16:51 UTC</createdTime>
+<ownerDesignName>SA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E10F2E0E-4ABF-A173-0234-7E5599AF15A3" referredColumn="AF50FB8A-D3C2-D909-C187-FD088AD38FA1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7033DA2A-AD55-E8BB-DD0D-8295AB356F9C" name="Module_Result__IDX">
+<createdBy>markreedmanback</createdBy>
+<createdTime>2022-11-09 12:16:51 UTC</createdTime>
+<ownerDesignName>SA</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>4A4E6DF7-EC92-D091-611E-BFFC9D88DFD1</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="ABDEFB49-584F-A12C-65B0-95456453CBAF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4B0C3239-E5BC-1E98-AF37-440246F82301" name="Module_Result_Module_Enrichment_FK">
+<createdBy>markreedmanback</createdBy>
+<createdTime>2022-11-09 12:16:51 UTC</createdTime>
+<generatorID>4A4E6DF7-EC92-D091-611E-BFFC9D88DFD1</generatorID>
+<ownerDesignName>SA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ABDEFB49-584F-A12C-65B0-95456453CBAF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

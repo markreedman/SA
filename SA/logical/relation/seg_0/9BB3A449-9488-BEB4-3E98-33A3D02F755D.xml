@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Award CE FK" directorySegmentName="seg_0" id="9BB3A449-9488-BEB4-3E98-33A3D02F755D">
+<createdBy>markreedmanback</createdBy>
+<createdTime>2022-11-09 11:41:21 UTC</createdTime>
+<ownerDesignName>SA</ownerDesignName>
+<engineerTo>
+<item key="DA62D9D9-112A-5EEE-E351-D22E3890C596" value="true"/>
+</engineerTo>
+<useSurrogateKey>true</useSurrogateKey>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D215F4E5-CBAE-E41C-3CAC-2D5C19A95F75</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A14A0232-9E02-6FF5-450C-6CDC39BDD2C0</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

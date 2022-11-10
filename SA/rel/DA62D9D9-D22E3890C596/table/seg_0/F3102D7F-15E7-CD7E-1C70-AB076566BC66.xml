@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F3102D7F-15E7-CD7E-1C70-AB076566BC66" name="Relation_38">
+<createdBy>markreedmanback</createdBy>
+<createdTime>2022-11-10 10:21:56 UTC</createdTime>
+<ownerDesignName>SA</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Module_Module_ID" id="846C9426-329C-98BE-04BF-920C8BEBD056">
+<createdBy>markreedmanback</createdBy>
+<createdTime>2022-11-10 10:21:56 UTC</createdTime>
+<ownerDesignName>SA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0793C082-4E84-5C2B-58E9-433A31621E37" referredColumn="B9C60C2E-1BAB-B290-0548-CE3FAA4060C1"/>
+</associations>
+</Column>
+<Column name="Subject_Subject_ID" id="4BE67CE0-D7F3-B386-6211-C363DFDC62E6">
+<createdBy>markreedmanback</createdBy>
+<createdTime>2022-11-10 10:21:56 UTC</createdTime>
+<ownerDesignName>SA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A79DE277-11FB-FA4F-4071-7221B914EED9" referredColumn="D17066D4-22C1-6CA7-E30C-4C28CA609E24"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9519B03C-897F-E68F-7C84-D88342322F01" name="Relation_38_PK">
+<createdBy>markreedmanback</createdBy>
+<createdTime>2022-11-10 10:21:56 UTC</createdTime>
+<ownerDesignName>SA</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="846C9426-329C-98BE-04BF-920C8BEBD056"/>
+<colUsage columnID="4BE67CE0-D7F3-B386-6211-C363DFDC62E6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6532A7B0-4270-EF29-0D67-45B711F13DF2" name="Relation_38_Module_FK">
+<createdBy>markreedmanback</createdBy>
+<createdTime>2022-11-10 10:21:56 UTC</createdTime>
+<generatorID>9235F607-15A6-05D6-B558-1709972D3660</generatorID>
+<ownerDesignName>SA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="846C9426-329C-98BE-04BF-920C8BEBD056"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EBF5E0D7-DD90-A23C-991D-90583D0A3372" name="Relation_38_Subject_FK">
+<createdBy>markreedmanback</createdBy>
+<createdTime>2022-11-10 10:21:56 UTC</createdTime>
+<generatorID>9235F607-15A6-05D6-B558-1709972D3660</generatorID>
+<ownerDesignName>SA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4BE67CE0-D7F3-B386-6211-C363DFDC62E6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

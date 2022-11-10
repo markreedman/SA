@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3B864DE9-BB3E-E5CA-CBCA-6B3E361B52C4" containerWithKeyObject="4C940713-F783-2D7F-20CF-F0E4889C7A8C" localFKIndex="99965D2A-6D45-2425-1C3D-9292BFBAED27" name="Module_Enrichment_Enroll_FK">
+<createdBy>markreedmanback</createdBy>
+<createdTime>2022-11-09 12:16:51 UTC</createdTime>
+<generatorID>D4E13146-CBF8-42F3-2D67-1DCF7D852659</generatorID>
+<ownerDesignName>SA</ownerDesignName>
+<referredTableLongName>Enroll</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>214DDA33-4DAA-6D7D-19CD-8A3AF62E6A24</referredTableID>
+<keyObject>9364E148-390F-A46B-28FD-E25B64275ACC</keyObject>
+<referredKeyID>9364E148-390F-A46B-28FD-E25B64275ACC</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Enroll_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ST AL FK" directorySegmentName="seg_0" id="1AB10E2B-0B11-CBDB-0BF2-1BC10668EA4C">
+<createdBy>markreedmanback</createdBy>
+<createdTime>2022-11-09 11:36:37 UTC</createdTime>
+<ownerDesignName>SA</ownerDesignName>
+<engineerTo>
+<item key="DA62D9D9-112A-5EEE-E351-D22E3890C596" value="true"/>
+</engineerTo>
+<useSurrogateKey>true</useSurrogateKey>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>183B9EF6-A32E-37F9-449A-0B454F38F673</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6529B1FC-3C8F-8D9F-1489-80F09A165317</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
